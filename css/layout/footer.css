@@ -18,3 +18,18 @@ footer{
     width: 90px;
     padding-left: 50%;
 }
+
+@media (max-width: 600px){
+    footer{
+        margin-top: 50px;
+    }
+    .local-text{
+        font-size: 10px;
+        margin-left: 10px;
+    }
+    .zap_image{
+        width: 50px;
+        margin-right: 10px;
+    }
+
+}

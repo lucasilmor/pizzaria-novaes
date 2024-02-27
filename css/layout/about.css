@@ -8,13 +8,13 @@
 }
 
 .about{
-    width: 31%;
+    width: 35%;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 20px;
     background-color: #bc4a28;
-    margin-left: 35%;
+    margin-left: 32%;
     border-radius: 14%;
     padding-right: 10px;
 }
@@ -50,4 +50,19 @@
 
 .title-about{
     padding-bottom: 20px;
+}
+
+@media (max-width: 600px){
+    .about {
+        display: flex;
+        flex-direction: column;
+        background-color: transparent;
+    }
+    .img_flag{
+        display: none;
+    }
+    .img_flag2{
+        display: none;
+    }
+    
 }
